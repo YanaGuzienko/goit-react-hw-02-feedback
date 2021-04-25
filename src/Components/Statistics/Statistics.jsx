@@ -5,6 +5,7 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
     <>
       {positivePercentage > 0 ? (
         <>
+          <h1 className={scss.title}>Statistic</h1>
           <p>Good:{good}</p>
           <p>Neutral:{neutral}</p>
           <p>Bad: {bad}</p>

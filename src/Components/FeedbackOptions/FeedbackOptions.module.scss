@@ -6,8 +6,32 @@
 //   outline: none;
 // }
 
-.btn,
-.btn,
 .btn {
+  padding: 16px 20px 16px 20px;
   background-color: bisque;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  outline: rgb(148, 95, 46);
+}
+
+.list {
+  display: flex;
+  flex-wrap: nowrap;
+  list-style: none;
+  justify-content: center;
+}
+
+.item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  transition-duration: 400ms;
+  box-shadow: 0px 0px 2px 2px rgb(221, 216, 211);
 }
